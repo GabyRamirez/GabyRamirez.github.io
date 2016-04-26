@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Acopladores de Impedancia | Caracterització dels sistemes i senyals de telecomunicacions </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Gabriel Ramírez" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostra",hide:"Amaga",showFeedback:"Mostra realimentació",hideFeedback:"Amaga realimentació",correct:"Correcte",incorrect:"Incorrecte",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+</head>
+<body class="exe-web-site"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Omet navegació</a></p>
+<header id="header" >Caracterització dels sistemes i senyals de telecomunicacions</header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Caracterització dels sistemes i senyals de telecomunicacions</a></li>
+   <li><a href="introducci_a_les_telecomunicacions.html" class="no-ch">Introducció a les telecomunicacions</a></li>
+   <li><a href="el_canal_de_comunicacions.html" class="no-ch">El canal de comunicacions.</a></li>
+   <li><a href="arquitectura_dels_sistemes_de_comunicacions.html" class="no-ch">Arquitectura dels Sistemes de Comunicacions</a></li>
+   <li><a href="senyals_indesitjables.html" class="no-ch">Senyals Indesitjables</a></li>
+   <li><a href="classificaci_dels_sistemes_de_telecomunicacions.html" class="no-ch">Classificació dels Sistemes de Telecomunicacions</a></li>
+   <li><a href="limitacions_en_la_comunicaci_elctrica.html" class="no-ch">Limitacions en la comunicació elèctrica</a></li>
+   <li><a href="la_relaci_senyal_a_soroll.html" class="no-ch">La relació senyal a soroll.</a></li>
+   <li><a href="magnitudes_logaritmicas.html" class="no-ch">Magnitudes Logarítmicas</a></li>
+   <li><a href="els_bits.html" class="no-ch">Els Bits</a></li>
+   <li><a href="digitalitzaci_de_senyals.html" class="no-ch">Digitalització de senyals</a></li>
+   <li><a href="amplificadors.html" class="no-ch">Amplificadors</a></li>
+   <li><a href="oscilladors.html" class="no-ch">Oscil·ladors</a></li>
+   <li><a href="mescladors.html" class="no-ch">Mescladors</a></li>
+   <li id="active"><a href="acopladores_de_impedancia.html" class="active no-ch">Acopladores de Impedancia</a></li>
+   <li><a href="modulacions.html" class="no-ch">Modulacions</a></li>
+   <li><a href="anlisi_de_circuits.html" class="no-ch">Anàlisi de Circuits</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="mescladors.html" class="prev"><span>&laquo; </span>Anterior</a> | <a href="modulacions.html" class="next"> Següent<span> &raquo;</span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Acopladores de Impedancia</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id131">
+<div class="iDevice emphasis0">
+<div id="ta131_1" class="block iDevice_content">
+<div class="page" title="Page 1">
+<div class="layoutArea">
+<div class="column">
+<p style="text-align: justify;"><span>Los acopladores de impedancia son elementos indispensables para conseguir la máxima transferencia de potencia entre circuitos, ya sean amplificadores, osciladores, mezcladores, etc. Un caso de aplicación importante es en el acoplamiento de líneas de transmisión y antenas. La idea básica del acoplador se ilustra en la figura 1, en que un generador, de impedancia Z</span><span>G </span><span>= R</span><span>G </span><span>+ jX</span><span>G </span><span>suministra potencia a una carga de impedancia Z</span><span>L </span><span>= R</span><span>L </span><span>+ jX</span><span>L</span><span>. para que la transferencia de potencia entre generador y carga sea máxima, es necesario que sus impedancias sean complejas conjugadas, es decir Z</span><span>G </span><span>= Z</span><span>L</span><span>*, en que Z</span><span>L</span><span>* es el complejo conjugado de Z</span><span>L</span><span>, es decir R</span><span>L </span><span>&ndash; jX</span><span>L</span><span>. </span></p>
+<p style="text-align: justify;"><span>La función del acoplador es, por consecuencia, hacer que el generador &ldquo;vea&rdquo; en sus terminales una impedancia compleja igual al conjugado de su impedancia interna, es decir, Z</span><span>G</span><span>* = R</span><span>G </span><span>- jX</span><span>G </span><span>y del lado de la carga, la impedancia de salida del acoplador debe ser igual al complejo conjugado de la impedancia de carga, Z</span><span>L</span><span>*. </span></p>
+<p style="text-align: justify;"><span>En estas condiciones, se dice que las impedancias están acopladas, o adaptadas, en base a las </span><span>impedancias imagen</span><span>. Esto significa que tanto el generador como la carga, &ldquo;ven&rdquo; en sus terminales las imágenes (el conjugado) de sus respectivas impedancias. Esto puede realizarse con circuitos formados por reactancias puras y, en el caso más simple, mediante un transformador.</span></p>
+<p><span><img src="Captura_de_pantalla_2013-10-03_a_les_09.30.39.png" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<div class="page" title="Page 1">
+<div class="layoutArea">
+<div class="column">
+<p style="text-align: justify;">En general, es deseable que en el acoplador no se disipe potencia, por lo que es frecuente implementarlos con elementos puramente reactivos (bobinas y condensadores), lo que da lugar a varias geometrías posibles: L invertida, T y &Pi;. La teoría de los acopladores de impedancia se basa, principalmente, en la aplicación de los teoremas de Thèvenin y Norton. Sin embargo, hay que llamar la atención sobre las limitaciones de los circuitos equivalentes de Thévenin y Norton, ya que dicha equivalencia es válida para la corriente de carga y no para las condiciones internas del generador. Si no se tienen en cuenta estas&nbsp;limitaciones, los resultados que se obtienen pueden ser absurdos. Otro aspecto adicional a tener en cuenta es que los circuitos equivalentes de Thévenin o Norton, pueden usarse para calcular la eficiencia de los circuitos</p>
+<p style="text-align: justify;">En la práctica, la mayoría de las antenas requieren de acopladores de impedancia entre la línea de transmisión y los elementos radiadores. La implementación de estos acopladores puede hacerse diversas formas, dependiendo de la frecuencia y potencia de funcionamiento. En el análisis de los acopladores de impedancia se suele emplear la convención de que, si el circuito retarda o retrasa una señal por &theta;o, se dice que el defasamiento es negativo (capacitivo) y, si la adelanta, el defasamiento es positivo (inductivo). Las configuraciones más utilizadas son por lo general tres: L, T y &pi;.</p>
+<p style="text-align: justify;">Los acopladores que se muestran son asimétricos o no balanceados, tal como se requiere en el caso de líneas coaxiales. En el caso de acopladores simétricos o balanceados, la reactancia de la rama en serie debe dividirse por dos. Las fórmulas de diseño que se dan en las secciones siguientes son válidas cuando las impedancias del generador y la carga son resistencias puras. Si estas impedancias son complejas la solución se complica considerablemente y, al momento de escribir esto, no se ha encontrado un tratamiento completo y adecuado del problema, si bien se utilizan también métodos gráficos. Aquí no trataremos este problema.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<div class="page" title="Page 2">
+<div class="layoutArea">
+<div class="column">
+<h1 style="text-align: justify;"><span>Acoplador en L</span></h1>
+<div class="page" title="Page 2">
+<div class="layoutArea">
+<div class="column">
+<p style="text-align: justify;"><span>El acoplador en L es el más simple y se configura con dos reactancias, una en serie y otra en paralelo como se muestra en la figura 2</span><span>3</span><span>. la Q con carga del circuito se calcula mediante la fórmula (1). La ecuación 2 define la reactancia en paralelo, que es negativa (capacitiva) cuando </span><span>&theta; </span><span>es negativo e inductiva cuando </span><span>&theta; </span><span>es positivo. La resistencia R</span><span>2 </span><span>en paralelo con la reactancia X</span><span>2 </span><span>debe ser siempre mayor que R</span><span>1</span><span>. El acoplador en L no puede usarse para ajustar la fase independientemente de la resistencia.</span></p>
+<p><span><img src="Captura_de_pantalla_2013-10-03_a_les_09.38.25.png" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<p style="text-align: justify;">&nbsp;</p>
+<div class="page" title="Page 2">
+<div class="layoutArea">
+<div class="column">
+<div class="page" title="Page 3">
+<div class="layoutArea">
+<div class="column">
+<h1 style="text-align: justify;"><span>Acoplador en T<br /></span></h1>
+<div class="page" title="Page 3">
+<div class="layoutArea">
+<div class="column">
+<p style="text-align: justify;"><span>Este tipo de acoplador, en la configuración mostrada en la figura 3 se usa tambien cuando las impedancias de carga y del generador son puramente resistivas. Tiene la propiedad de que el defasamiento es independiente de la relación entre las resistencias de entrada y salida y puede considerarse como formado por dos acopladores en L conectados espalda con espalda. En este circuito se tienen dos </span><span>Q</span><span>s con carga, una </span><span>Q </span><span>de entrada y otra de salida. Para calcular el ancho de banda del acoplador T, debe ignorarse la </span><span>Q </span><span>menor y, por otra parte, la </span><span>Q </span><span>del circuito aumenta cuando aumenta el defasamiento.</span></p>
+<p><span><img src="Captura_de_pantalla_2013-10-03_a_les_09.39.46.png" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<div class="page" style="text-align: justify;" title="Page 5">
+<div class="layoutArea">
+<div class="column">
+<h1><span>Acoplador en </span><span>&pi;</span></h1>
+<div class="page" title="Page 5">
+<div class="layoutArea">
+<div class="column">
+<p><span>Este acoplador, mostrado en la figura 4, también puede considerarse como formado por dos acopladores en L y son válidas las consideraciones sobre la Q con carga realizadas para el acoplador T. En este caso se utilizan susceptancias en lugar de reactancias, a fin de simplificar los cálculos. La resistencia en el punto medio de una red </span><span>&pi; </span><span>siempre es menor que R</span><span>1 </span><span>o R</span><span>2</span><span>. Se considera, además, que una red </span><span>&pi; </span><span>es de retardo o fase negativa cuando Y</span><span>3 </span><span>es positiva y viceversa.</span></p>
+<p><span><img src="Captura_de_pantalla_2013-10-03_a_les_09.40.48.png" style="display: block; margin-left: auto; margin-right: auto;" /><br /></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p style="text-align: justify;">&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="mescladors.html" class="prev"><span>&laquo; </span>Anterior</a> | <a href="modulacions.html" class="next"> Següent<span> &raquo;</span></a>
+</nav>
+</div>
+</div>
+</body></html>

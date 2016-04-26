@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Digitalització de senyals | Caracterització dels sistemes i senyals de telecomunicacions </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Gabriel Ramírez" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostra",hide:"Amaga",showFeedback:"Mostra realimentació",hideFeedback:"Amaga realimentació",correct:"Correcte",incorrect:"Incorrecte",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+</head>
+<body class="exe-web-site"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Omet navegació</a></p>
+<header id="header" >Caracterització dels sistemes i senyals de telecomunicacions</header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Caracterització dels sistemes i senyals de telecomunicacions</a></li>
+   <li><a href="introducci_a_les_telecomunicacions.html" class="no-ch">Introducció a les telecomunicacions</a></li>
+   <li><a href="el_canal_de_comunicacions.html" class="no-ch">El canal de comunicacions.</a></li>
+   <li><a href="arquitectura_dels_sistemes_de_comunicacions.html" class="no-ch">Arquitectura dels Sistemes de Comunicacions</a></li>
+   <li><a href="senyals_indesitjables.html" class="no-ch">Senyals Indesitjables</a></li>
+   <li><a href="classificaci_dels_sistemes_de_telecomunicacions.html" class="no-ch">Classificació dels Sistemes de Telecomunicacions</a></li>
+   <li><a href="limitacions_en_la_comunicaci_elctrica.html" class="no-ch">Limitacions en la comunicació elèctrica</a></li>
+   <li><a href="la_relaci_senyal_a_soroll.html" class="no-ch">La relació senyal a soroll.</a></li>
+   <li><a href="magnitudes_logaritmicas.html" class="no-ch">Magnitudes Logarítmicas</a></li>
+   <li><a href="els_bits.html" class="no-ch">Els Bits</a></li>
+   <li id="active"><a href="digitalitzaci_de_senyals.html" class="active no-ch">Digitalització de senyals</a></li>
+   <li><a href="amplificadors.html" class="no-ch">Amplificadors</a></li>
+   <li><a href="oscilladors.html" class="no-ch">Oscil·ladors</a></li>
+   <li><a href="mescladors.html" class="no-ch">Mescladors</a></li>
+   <li><a href="acopladores_de_impedancia.html" class="no-ch">Acopladores de Impedancia</a></li>
+   <li><a href="modulacions.html" class="no-ch">Modulacions</a></li>
+   <li><a href="anlisi_de_circuits.html" class="no-ch">Anàlisi de Circuits</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="els_bits.html" class="prev"><span>&laquo; </span>Anterior</a> | <a href="amplificadors.html" class="next"> Següent<span> &raquo;</span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Digitalització de senyals</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id0">
+<div class="iDevice emphasis0">
+<div id="ta0_85" class="block iDevice_content">
+<h1>Etapes d'un conversor A/D</h1>
+<p><img src="digitalitzacio.png" width="991" height="285" alt="digitalització" /></p>
+<h2>Mostreig Digital</h2>
+<p>El senyal analògic es continu en el temps i el senyal digital és discret. Caldrà, per tant, definir quantes mostres per segon s'han de prendre per poder reconstruir el senyal en recepció sense pèrdues.</p>
+<p>Segons el teorema de <a href="https://ca.wikipedia.org/wiki/Teorema_de_mostreig_de_Nyquist-Shannon">Nyquist-Shannon</a> la freqüència de mostreig (mostres preses cada segon) serà e doble de l'ample de banda del senyal, o el doble de la freqüència màxima del senyal si es troba en banda base.</p>
+<p><img src="mostreig.png" width="703" height="219" /></p>
+<h2>Quantificació</h2>
+<p>En segón lloc s'han de definir els nivells de voltatge que es podran diferenciar a la senyal digitalitzada. Com més nivells més semblant serà el senyal reconstruït al senyal original.</p>
+<p></p>
+<p><img src="Captura_de_pantalla_2015-10-21_a_les_13.34.43.png" width="671" height="190" alt="quantificacio" /></p>
+<p></p>
+<h2>Codificació</h2>
+<p>La tercera etapa consisteix en traduir els valors obtinguts al codi binari per fer la transmissió. El número de bits necessaris serà el logaritme en base 2 del número de nivells. </p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id1">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Activitat 11:</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta1_42_2" class="block iDevice_content">
+<p>Calcula la velocitat de transmissió binaria (bps) d'un senyal digital fruit de la conversió amb 65536 nivells d'un senyal d'audio de 20KHz d'ample de Banda.</p>
+</div>
+</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="els_bits.html" class="prev"><span>&laquo; </span>Anterior</a> | <a href="amplificadors.html" class="next"> Següent<span> &raquo;</span></a>
+</nav>
+</div>
+</div>
+</body></html>
